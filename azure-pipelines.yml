@@ -9,7 +9,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: ''
+  dockerRegistryServiceConnection: 'Azure-ServiceConnection'
   imageRepository: 'dockerwindows'
   containerRegistry: 'edisga.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
